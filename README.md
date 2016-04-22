@@ -1,2 +1,2 @@
 # Algorithms
-Basic CS algorithms implemented in java
+Basic CS algorithm interview questions implemented in java.
