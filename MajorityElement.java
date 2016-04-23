@@ -1,4 +1,4 @@
-public class Solution
+public class MajorityElement
 {
     //METHOD 1: http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
     public int majorityElement(int[] num) 
