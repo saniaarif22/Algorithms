@@ -1,6 +1,7 @@
 public class Solution
 {
-    public int majorityElement(int[] num) //http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
+    // METHOD 1: //http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
+    public int majorityElement(int[] num) 
     {
         int major=num[0];
         int count = 1;
@@ -19,5 +20,5 @@ public class Solution
         }
         return major;
     }
-    //METHOD 2: Sort array & return middle element [if majority has to cross the middle]
+    // METHOD 2: Sort array & return middle element [if majority has to cross the middle]
 }
