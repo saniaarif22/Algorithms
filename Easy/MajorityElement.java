@@ -1,5 +1,6 @@
 public class Solution
 {
+    // The majority element is the element that appears more than ⌊ n/2 ⌋ times.
     // METHOD 1: //http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
     public int majorityElement(int[] num) 
     {
