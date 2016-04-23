@@ -1,6 +1,8 @@
 public class MajorityElement
 {
-    //METHOD 1: http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
+    // The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+    
+    // METHOD 1: http://www.cs.utexas.edu/~moore/best-ideas/mjrty/index.html
     public int majorityElement(int[] num) 
     {
         int major=num[0];
@@ -20,5 +22,5 @@ public class MajorityElement
         }
         return major;
     }
-    //METHOD 2: Sort array & return middle element [if majority has to cross the middle]
+    // METHOD 2: Sort array & return middle element [if majority has to cross the middle]
 }
