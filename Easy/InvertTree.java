@@ -8,6 +8,26 @@
  * }
  */
 
+/*
+
+Sample Input:
+
+     5
+   /   \
+  7     8
+ / \   / \
+3   4 1   2
+
+Sample Output:
+
+     5
+   /   \
+  8     7
+ / \   / \
+2   1 4   3
+
+*/
+
 public class InvertTree {
     public TreeNode invertTree(TreeNode root)
     {
