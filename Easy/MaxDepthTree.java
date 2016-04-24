@@ -13,8 +13,11 @@
 public class MaxDepthTree {
     public int maxDepth(TreeNode root)
     {
-        if(root == null) return 0;
+        //Base cases:
+        if(root == null) return 0; 
         if(root.left == null && root.right == null) return 1;
+        
+        //Recursive funtion
         return (1 + Math.max(maxDepth(root.left), maxDepth(root.right)));
     }
 }
