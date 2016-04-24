@@ -7,6 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+ 
+// The maximum depth refers to the number of nodes along the longest path from the root to the farthest leaf node.
+
 public class MaxDepthTree {
     public int maxDepth(TreeNode root)
     {
