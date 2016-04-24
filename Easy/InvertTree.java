@@ -11,8 +11,12 @@
 public class InvertTree {
     public TreeNode invertTree(TreeNode root)
     {
-        if(root == null) return root;
-        if(root.left == null && root.right==null) return root;
+        //Base cases:
+        if(root == null) 
+            return root;
+        
+        if(root.left == null && root.right==null) 
+            return root;
         
         TreeNode temp = root.left;
         root.left = root.right;
