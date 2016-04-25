@@ -2,11 +2,11 @@ public class IsAnagram {
     public boolean isAnagram(String s, String t)
     {
         
-        /*
+        /* Method 1:
 
-        if(s.isEmpty())	return(t.isEmpty());
+        if(s.isEmpty())	return(t.isEmpty()); //Base Case
         
-        if(s.length()!= t.length())	return false;
+        if(s.length()!= t.length())	return false; //Base Case
         
         Set<Character> s1 = new HashSet();
         Set<Character> t1 = new HashSet();
@@ -19,9 +19,14 @@ public class IsAnagram {
         
         return (s1.containsAll(t1) && t1.containsAll(s1)); */
 
-
-        if(s.isEmpty())	return(t.isEmpty());
-        if(s.length()!= t.length())	return false;
+        //Method 2:
+        
+        if(s.isEmpty())	 //Base case
+            return(t.isEmpty());
+        
+        if(s.length()!= t.length())	 //Base case
+            return false;
+            
         char ch[] = new char [26];
         for(int i=0; i<s.length(); i++)
         {
