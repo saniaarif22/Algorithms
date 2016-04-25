@@ -1,6 +1,7 @@
 public class IsAnagram {
     public boolean isAnagram(String s, String t)
     {
+        // A string is an anagram of another, if it has all the letters the string has, in a different order.
         
         /* Method 1:
 
