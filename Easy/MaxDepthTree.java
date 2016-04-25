@@ -7,11 +7,17 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+ 
+// The maximum depth refers to the number of nodes along the longest path from the root to the farthest leaf node.
+
+public class MaxDepthTree {
     public int maxDepth(TreeNode root)
     {
-        if(root == null) return 0;
+        //Base cases:
+        if(root == null) return 0; 
         if(root.left == null && root.right == null) return 1;
+        
+        //Recursive funtion
         return (1 + Math.max(maxDepth(root.left), maxDepth(root.right)));
     }
 }
