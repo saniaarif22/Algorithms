@@ -18,9 +18,9 @@
 public class ListToTree {
     public TreeNode sortedListToBST(ListNode head) 
     {
-        if(head == null) return null;
-        if(head.next == null) return new TreeNode(head.val);
-        if(head.next.next == null) //Only 2 elements in the tree
+        if(head == null) return null; //Base case
+        if(head.next == null) return new TreeNode(head.val); //Base case
+        if(head.next.next == null) //Base case- Only 2 elements in the tree
         {
             TreeNode root = new TreeNode(head.val);
             root.right = new TreeNode(head.next.val);
@@ -36,7 +36,7 @@ public class ListToTree {
             slow = slow.next;
         }
         
-        //slow will be middle- root of tree
+        //slow will be the middle- root of tree
         TreeNode root = new TreeNode (slow.val);
         
         prev.next = null;
