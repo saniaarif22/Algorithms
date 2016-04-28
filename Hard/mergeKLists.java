@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-
+// Merge k sorted linked lists and return it as one sorted list.
 public class mergeKLists {
     public ListNode mergeKLists(ListNode[] lists) 
     {
