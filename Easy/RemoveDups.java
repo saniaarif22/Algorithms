@@ -6,6 +6,14 @@
  *     ListNode(int x) { val = x; }
  * }
 */
+
+/*
+Given a sorted linked list, delete all duplicates such that each element appear only once.
+
+For example,
+Given 1->1->2->2->3->3, return 1->2->3.
+*/
+
 public class RemoveDups {
     //METHOD 1:
     public ListNode deleteDuplicates(ListNode head) 
