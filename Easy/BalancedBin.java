@@ -7,6 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+//A height-balanced binary tree is a binary tree in which the depth of the 2 subtrees of every node never differs by more than 1.
+
 public class BalancedBin {
 
     //METHOD 1:
@@ -27,13 +30,13 @@ public class BalancedBin {
     //METHOD 2: More efficient:
     public boolean isBalanced(TreeNode root)
     {
-        if(checkHeight(root) == -1) return false;
+        if(checkHeight(root) == -1) return false; 
         return true;
     }
     
     public int checkHeight(TreeNode root)
     {
-        if(root==null) return 0;
+        if(root==null) return 0; //Base Case
         
         int left = checkHeight(root.left);
         if(left == -1) return -1;
@@ -41,7 +44,7 @@ public class BalancedBin {
         int right = checkHeight(root.right);
         if(right == -1) return -1;
         
-        int diff = Math.abs(left-right);
+        int diff = Math.abs(left-right); //Balanced if diff in height is <= 1
         if(diff>1) return -1;
         
         else return (1+ Math.max(left, right));
