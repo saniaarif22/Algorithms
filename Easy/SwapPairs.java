@@ -10,10 +10,10 @@
 public class SwapPairs {
     public ListNode swapPairs(ListNode head) 
     {
-        if(head==null || head.next==null) return head;
+        if(head==null || head.next==null) return head; //Base case
         ListNode next = head.next;
         head.next = swapPairs(head.next.next);
-        next.next = head;
+        next.next = head; //Moving ahead
         head = next;
         return head;
     }
