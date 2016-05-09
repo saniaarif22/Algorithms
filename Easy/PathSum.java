@@ -11,7 +11,7 @@
 //Given a binary tree and a number, determine if the tree has a root-to-leaf path 
 //such that adding the values along the path equals to the given number.
 
-public class Solution 
+public class PathSum 
 {
     public boolean hasPathSum(TreeNode root, int sum) 
     {
