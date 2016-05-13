@@ -2,11 +2,11 @@ public class TwoDMatrix
 {
     public boolean searchMatrix(int[][] matrix, int target) 
     {
-            if (matrix == null || matrix.length == 0) 
+            if (matrix == null || matrix.length == 0) //Base cases
                 return false;
                 
             int start = 0, rows = matrix.length, cols = matrix[0].length;
-            int end = rows * cols - 1; //index of last corner right element
+            int end = rows * cols - 1; //index of the last corner right element
             
             while (start <= end) 
             {
