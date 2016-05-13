@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-
+// Assuming k is valid, find the Kth smallest element in a binary search tree
 public class KthSmallestInArray {
     
     public int kthSmallest(TreeNode root, int k)
