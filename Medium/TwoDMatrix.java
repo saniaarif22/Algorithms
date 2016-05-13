@@ -1,5 +1,7 @@
 public class TwoDMatrix 
 {
+    /* Algorithm to searhc a matrix of Integers that are sorted rowise from left to right.
+    The first integer of each row is greater than the last integer of the previous row. */
     public boolean searchMatrix(int[][] matrix, int target) 
     {
             if (matrix == null || matrix.length == 0) //Base cases
