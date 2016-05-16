@@ -6,6 +6,8 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+//Given two linked lists representing two non-negative numbers, are stored in reverse order and each node contains a single digit. 
+//Add the two numbers and return it as a linked list.
 public class AddListNum 
 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) 
