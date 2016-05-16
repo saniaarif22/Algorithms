@@ -1,5 +1,5 @@
 public class Subsets {
-    
+    // Given a set of distinct integers, nums, return all possible subsets.
     public List<List<Integer>> subsets(int[] S) 
     {
         Arrays.sort(S);
