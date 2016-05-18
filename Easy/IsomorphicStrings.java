@@ -1,8 +1,10 @@
+//Two strings s and x are isomorphic if the characters in s can be replaced to get x.
+//Eg: "add" and "pss"
 public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t)
     {
-        if(s == null || s.length() <= 1) return true;
-        if(s.length()!= t.length()) return false;
+        if(s == null || s.length() <= 1) return true; //Base Case
+        if(s.length()!= t.length()) return false; //Base Case
         HashMap <Character, Character> map = new HashMap <Character, Character>();
         for(int i =0; i< s.length(); i++)
         {
