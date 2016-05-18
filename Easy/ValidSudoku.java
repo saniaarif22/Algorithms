@@ -1,3 +1,6 @@
+//The Sudoku board could be partially filled, where empty cells are filled with '.'
+//A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
+//We need to determine if a Sudoku is valid.
 public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) 
     {
