@@ -12,7 +12,7 @@
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) 
     {
-        if(head==null || head.next==null || head.next.next == null) return head;
+        if(head==null || head.next==null || head.next.next == null) return head; //Base Case
         ListNode odd = head, even=head.next, evenStart = even;
         while(odd!=null && odd.next!=null && even!=null && even.next!=null)
         {
