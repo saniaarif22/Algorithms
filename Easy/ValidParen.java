@@ -1,3 +1,5 @@
+//Given a string containing just the characters '(', ')', '{', '}', '[' and ']'
+//The brackets must match and close in the correct order
 public class ValidParen {
     public boolean isValid(String s)
     {
