@@ -6,6 +6,9 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
+// Given a singly linked list, group all odd numbered nodes together followed by the even numbered nodes.
+
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) 
     {
