@@ -1,4 +1,6 @@
 public class SearchInsert {
+    //Given a sorted array with no duplicates, and a target value, return the index if the target is found. 
+    //If not, return the index where it would be if it were inserted in order.
     public int searchInsert(int[] A, int target) 
     {
         int low = 0, high = A.length-1;
